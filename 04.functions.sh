@@ -7,7 +7,7 @@ example
 
 #Functions have its own special variables
 
-example()n{
+example() {
   echo value of 1 - $1
   echo "Value of & - $*"
   echo "value of # - $#"
