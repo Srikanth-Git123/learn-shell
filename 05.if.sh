@@ -72,13 +72,12 @@ else
   echo " $x is less than 100"
 fi
 
-## Variables in expressions better to provide in double quotes
+## Variables in expressions better to provide in double quotes when it is string
 
-if [ $x -gt 100 ]; then
-  echo " $x is greater than 100"
-else
-  echo " $x is less than 100"
+if [ -z $x ]; then
+  echo Input Missing
 fi
+
 
 # Handle Input Missing
 
