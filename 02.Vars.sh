@@ -17,4 +17,4 @@ x=$(uptime)
 # Arithmetic Sub
 # A Arithmetic expression solved and output to a variable then arithmetic sub
 y=$((2+3))
-z=$((2+3+/8*2))
+z=$((2+3+8*2))
