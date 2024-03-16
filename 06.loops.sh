@@ -1,6 +1,6 @@
 # While Loop works on expression
 i=0
-while [ $i -1t 10 ]; do
+while [ $i -lt 10 ]; do
   echo i - $i
   i=$(($i+1))
   done
